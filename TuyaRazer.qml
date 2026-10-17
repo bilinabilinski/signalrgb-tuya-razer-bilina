@@ -266,7 +266,7 @@ Item {
 						height: 30
 						ToolButton {
 							id: updateButton
-							enabled: false
+							enabled: true
 							height: 30
 							width: 100
 							anchors.verticalCenter: parent.verticalCenter
