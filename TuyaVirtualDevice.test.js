@@ -10,7 +10,7 @@ export default class TuyaVirtualDevice extends BaseClass
         super();
         // Initialize tuya device from saved data
         this.tuyaDevice = new TuyaDevice(deviceData, null);
-        this.frameDelay = 33;
+        this.frameDelay = 50;
         this.lastRender = 0;
 
         this.setupDevice(this.tuyaDevice);
